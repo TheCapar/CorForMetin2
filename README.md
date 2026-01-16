@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+💎 Metin2 Daily Tracker (Cor & Guild)Metin2 oyuncularının en büyük derdi olan "Bugün hangi çarla Cor yaptım?", "Lonca bağışını unuttum mu?" sorularını bitiren; React Native ve TypeScript ile geliştirilmiş kişisel takip asistanı.📱 Proje HakkındaBu uygulama, birden fazla karakteri yöneten oyuncuların günlük rutinlerini (Cor Draconis görevleri ve Lonca bağışları) takip etmelerini ve aylık performanslarını analiz etmelerini sağlar. Veriler yerel depolamada (Local Storage) tutulur, internet bağlantısı gerektirmez.✨ Özellikler👥 Karakter Yönetimi: Sınırsız sayıda oyun karakteri ekleme ve silme.✅ Günlük Takip (Daily Check):Her karakter için "Cor" ve "Lonca" durumu işaretleme.Geçmiş günlere dönük veri girişi ve düzenleme.Gelecek günlere veri girişini engelleyen tarih kontrolü.📊 Aylık İstatistikler (Monthly Report):Seçilen ayın toplam Cor sayısı.Karakter bazlı performans sıralaması (Leaderboard).Görsel ilerleme çubukları.🎨 UI/UX:SafeArea uyumlu, çentik (notch) dostu tasarım.Özel Header ve Navigasyon yapısı.Responsive kart tasarımları.🛠️ Kullanılan TeknolojilerCore: React Native (Expo SDK 50+)Dil: TypeScriptNavigasyon: React Navigation (Stack)Veri Saklama: @react-native-async-storage/async-storageİkonlar: Lucide React NativePlatform: iOS & Android📸 Ekran GörüntüleriAna SayfaGünlük TakipAylık Rapor<img src="./assets/ss-home.png" width="250" /><img src="./assets/ss-daily.png" width="250" /><img src="./assets/ss-stats.png" width="250" />(Not: Ekran görüntüleri temsilidir, kendi aldığın SS'leri buraya ekleyebilirsin.)🚀 KurulumProjeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:Repoyu klonlayın:Bashgit clone https://github.com/kullaniciadi/metin2-daily-tracker.git
+cd metin2-daily-tracker
+Bağımlılıkları yükleyin:Bashnpm install
+# veya
+yarn install
+Uygulamayı başlatın:Bashnpx expo start
+iOS (Xcode) için Native Build (Opsiyonel):Bashnpx expo prebuild
+xed ios
+📂 Proje Yapısımetin2-daily-tracker/
+├── assets/                 # İkonlar ve görseller
+├── components/             # Tekrar kullanılabilir bileşenler (CustomScreenWrapper vb.)
+├── screens/                # Uygulama ekranları
+│   ├── HomeScreen.tsx      # Karakter listesi ve ekleme
+│   ├── DailyCheck.tsx      # Günlük işaretleme ekranı
+│   └── MonthlyStats.tsx    # İstatistik ekranı
+├── navigation/             # Navigasyon ayarları
+├── App.tsx                 # Ana giriş dosyası
+└── README.md
+🤝 Katkıda BulunmaBu proje kişisel kullanım için geliştirilmiştir ancak geliştirmelere açıktır. Pull request göndermekten çekinmeyin!Developed with ❤️ by [Senin Adın]
