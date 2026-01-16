@@ -49,17 +49,25 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
    ```bash
    git clone [https://github.com/kullaniciadi/metin2-daily-tracker.git](https://github.com/kullaniciadi/metin2-daily-tracker.git)
    cd metin2-daily-tracker
-``
+   ```
+   
 2. **Bağımlılıkları yükleyin:**
   ```bash
-  npm install veya yarn install```
+  npm install
+#veya
+yarn install
+```
+
 3. **Uygulamayı başlatın:**
   ```bash
-npx expo start```
+   npx expo start
+```
 4. **iOS (Xcode) için Native Build (Opsiyonel):**
 ```bash
 npx expo prebuild
-xed ios```
+xed ios
+```
+
 ## 📂 Proje Yapısı
   metin2-daily-tracker/
   ├── assets/                 # İkonlar ve görseller
