@@ -69,6 +69,7 @@ xed ios
 ```
 
 ## 📂 Proje Yapısı
+```text
   metin2-daily-tracker/
   ├── assets/                 # İkonlar ve görseller
   ├── components/             # Tekrar kullanılabilir bileşenler (CustomScreenWrapper vb.)
@@ -79,7 +80,7 @@ xed ios
   ├── navigation/             # Navigasyon ayarları
   ├── App.tsx                 # Ana giriş dosyası
   └── README.md
-
+```
 ## 🤝 Katkıda Bulunma
 Bu proje kişisel kullanım için geliştirilmiştir ancak geliştirmelere açıktır. Pull request göndermekten çekinmeyin!
 
