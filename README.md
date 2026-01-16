@@ -84,4 +84,5 @@ xed ios
 ## 🤝 Katkıda Bulunma
 Bu proje kişisel kullanım için geliştirilmiştir ancak geliştirmelere açıktır. Pull request göndermekten çekinmeyin!
 
-Developed with ❤️ by [Senin Adın]
+Developed with ❤️ by Edêbali
+
