@@ -37,7 +37,7 @@ Bu uygulama, birden fazla karakteri yöneten oyuncuların günlük rutinlerini (
 
 | Ana Sayfa | Günlük Takip | Aylık Rapor |
 |:---:|:---:|:---:|
-| <img src="./assets/ss-home.png" width="250" /> | <img src="./assets/ss-daily.png" width="250" /> | <img src="./assets/ss-stats.png" width="250" /> |
+| <img src="./assets/images/ss-home.png" width="250" /> | <img src="./assets/images/ss-daily.png" width="250" /> | <img src="./assets/images/ss-stats.png" width="250" /> |
 
 *(Not: Ekran görüntüleri temsilidir, kendi aldığın SS'leri buraya ekleyebilirsin.)*
 
