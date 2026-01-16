@@ -4,6 +4,16 @@ Metin2 oyuncularının en büyük derdi olan "Bugün hangi çarla Cor yaptım?",
 
 ![Project Banner](https://img.shields.io/badge/React_Native-Expo-blue?style=for-the-badge&logo=react) ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge&logo=typescript) ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-green?style=for-the-badge)
 
+<div align="center">
+
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTheCapar%2FCorForMetin2&count_bg=%234A90E2&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Ziyaret&edge_flat=false" alt="hits"/>
+
+<a href="https://github.com/TheCapar/CorForMetin2/stargazers"><img src="https://img.shields.io/github/stars/TheCapar/CorForMetin2?style=social" alt="Stars Badge"/></a>
+<a href="https://github.com/TheCapar/CorForMetin2/network/members"><img src="https://img.shields.io/github/forks/TheCapar/CorForMetin2?style=social" alt="Forks Badge"/></a>
+<a href="https://github.com/TheCapar/CorForMetin2/issues"><img src="https://img.shields.io/github/issues/TheCapar/CorForMetin2" alt="Issues Badge"/></a>
+
+</div>
+
 ## 📱 Proje Hakkında
 
 Bu uygulama, birden fazla karakteri yöneten oyuncuların günlük rutinlerini (Cor Draconis görevleri ve Lonca bağışları) takip etmelerini ve aylık performanslarını analiz etmelerini sağlar. Veriler yerel depolamada (Local Storage) tutulur, internet bağlantısı gerektirmez.
@@ -37,7 +47,7 @@ Bu uygulama, birden fazla karakteri yöneten oyuncuların günlük rutinlerini (
 
 | Ana Sayfa | Günlük Takip | Aylık Rapor |
 |:---:|:---:|:---:|
-| <img src="./assets/images/ss-home.png" width="250" /> | <img src="./assets/images/ss-daily.png" width="250" /> | <img src="./assets/images/ss-stats.png" width="250" /> |
+| <img src="./assets/ss-home.png" width="250" /> | <img src="./assets/ss-daily.png" width="250" /> | <img src="./assets/ss-stats.png" width="250" /> |
 
 *(Not: Ekran görüntüleri temsilidir, kendi aldığın SS'leri buraya ekleyebilirsin.)*
 
